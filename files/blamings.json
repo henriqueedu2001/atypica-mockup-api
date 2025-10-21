@@ -1,0 +1,22 @@
+{
+    "blamings": [
+        {
+            "requirement_id": "RF01",
+            "question_id": 4,
+            "analysis": "O requisito RF01 não está satisfeito porque a cláusula 3.2 do documento não especifica o tempo de resposta máximo.",
+            "satisfied": false
+        },
+        {
+            "requirement_id": "RF02",
+            "question_id": 1,
+            "analysis": "O requisito RF02 está totalmente atendido conforme descrito na seção 5.1.",
+            "satisfied": true
+        },
+        {
+            "requirement_id": "RF03",
+            "question_id": 7,
+            "analysis": "O requisito RF03 está parcialmente satisfeito, mas falta detalhamento sobre os perfis de usuário no apêndice A.",
+            "satisfied": false
+        }
+    ]
+}
