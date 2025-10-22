@@ -5,11 +5,17 @@ import os
 import json
 from pathlib import Path
 from typing import *
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="Atypica API",
     description="API do Atypica para análise de provas.",
     version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins="http://localhost:3000"
 )
 
 UPLOAD_DIRECTORY = "./files"
