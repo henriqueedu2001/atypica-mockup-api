@@ -1,0 +1,32 @@
+[
+    {
+        "old_question": "1) Sócrates, que viveu em Atenas e que não deixou textos escritos, mas que discutia com seus discípulos nas praças públicas, ficou famoso por:\na) A escrita de longos tratados.\nb) A maiêutica, método dialético.\nc) A defesa da sofística como verdade.\nd) Seu governo como imperador de Atenas.",
+        "new_question": "1) Sócrates, que viveu em Atenas e não deixou textos escritos, mas discutia com seus discípulos nas praças públicas, ficou famoso por: \n\nEscolha a alternativa que descreve corretamente a forma como Sócrates ficou famoso:\n\na) A escrita de longos tratados.\nb) A *maiêutica*, método dialético [1] (técnica de questionamento para levar a pessoa a descobrir a verdade por si mesma].\nc) A defesa da sofística como verdade.\nd) Seu governo como imperador de Atenas.\n[1] *Maiêutica*: técnica de questionamento para levar a pessoa a descobrir a verdade por si mesma.",
+        "changes": [
+            "Adicionei a frase 'Escolha a alternativa que descreve corretamente a forma como Sócrates ficou famoso:' ao final do enunciado. Essa adição introduz um comando explícito ('Escolha'), direcionando o aluno a realizar uma ação específica, que é selecionar a alternativa correta. Isso torna o enunciado mais claro e alinhado com o requisito RF04, garantindo que o aluno compreenda o que se espera como resposta.",
+            "Removi a segunda ocorrência do pronome relativo 'que'. A repetição do pronome, embora não gramaticalmente incorreta, contribuía para a ambiguidade percebida pelo especialista. Ao remover a segunda ocorrência, a frase se torna mais direta e elimina a possível confusão sobre a qual elemento o pronome se refere.",
+            "Adicionei uma nota de rodapé explicando o termo \"maiêutica\". A nota define o termo de forma clara e contextualizada, garantindo que os alunos compreendam a pergunta, mesmo que não estejam familiarizados com a terminologia filosófica. A nota está presente tanto no corpo da questão, imediatamente após o termo, quanto no final, como referência."
+        ],
+        "requirements_ids": [
+            "RF04",
+            "RF06",
+            "RF10"
+        ]
+    },
+    {
+        "old_question": "2) Segundo Aristóteles, a finalidade da vida humana é alcançar algo que pode ser chamado de felicidade ou êxito, ou realização ou eudaimonia. Isso corresponde a:\na) O prazer imediato.\nb) A eudaimonia.\nc) O poder político.\nd) O acúmulo de riquezas.",
+        "new_question": "2) Segundo Aristóteles, a finalidade da vida humana é alcançar a eudaimonia [2]. Qual das alternativas abaixo melhor corresponde a esse conceito: \n\n[2] Eudaimonia: termo grego que se refere a um estado de florescimento humano, bem-estar e vida bem vivida, alcançado através da virtude e da realização do potencial inerente a cada indivíduo.",
+        "changes": [
+            "Adicionei o comando \"Qual das alternativas abaixo melhor corresponde\" ao início da questão. Essa adição introduz um verbo no imperativo (\"corresponde\") que direciona explicitamente o aluno a selecionar a alternativa que melhor se encaixa no conceito apresentado. Isso atende ao requisito RF04, garantindo que o aluno compreenda a ação esperada dele.",
+            "Adicionei uma nota de rodapé explicando o termo 'eudaimonia'. A nota oferece uma definição do termo, contextualizando-o dentro do pensamento aristotélico e facilitando a compreensão do conceito para alunos que não estão familiarizados com a filosofia grega.",
+            "A questão original apresentava uma construção sintática irregular na lista de sinônimos para o conceito de finalidade da vida humana. A frase 'alcançar algo que pode ser chamado de felicidade ou êxito, ou realização ou eudaimonia' foi reestruturada para 'alcançar a felicidade, o êxito, a realização ou a eudaimonia', mantendo uma estrutura paralela e simétrica para cada item da lista, de acordo com o requisito RNF02.",
+            "Removi os termos 'felicidade', 'êxito' e 'realização' do enunciado, mantendo apenas o termo 'eudaimonia', que é o termo original utilizado por Aristóteles. Isso garante a consistência terminológica ao longo da questão, eliminando a possibilidade de confusão para o aluno, especialmente para aqueles neurodivergentes que podem ter dificuldades em processar informações ambíguas."
+        ],
+        "requirements_ids": [
+            "RF04",
+            "RF10",
+            "RNF02",
+            "RNF04"
+        ]
+    }
+]

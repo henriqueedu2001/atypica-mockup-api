@@ -32,8 +32,15 @@ async def upload_document(file: UploadFile = File(...)):
 
 @app.get("/blame")
 async def get_blame():
-    blamings = FileManager.load_json('files/blamings.json')
-    return blamings
+    blames = FileManager.load_json('files/blames.json')
+    return blames
+
+
+@app.get("/adaptations")
+async def get_adaptations():
+    adaptations = FileManager.load_json('files/adaptations.json')
+    return adaptations
+
 
 
 @app.get("/extracted")
