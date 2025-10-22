@@ -1,28 +1,679 @@
-{
-    "blamings": [
-        {
-            "analysis": "O documento apresenta uma prova de filosofia, com questões dissertativas e de múltipla escolha. No entanto, não há nenhuma seção de identificação do aluno no início da prova, como nome, turma, número de matrícula, etc. A prova apenas apresenta o título e as questões, sem qualquer espaço para que o aluno preencha seus dados.",
-            "satisfied": false,
-            "question_id": 0,
-            "requirement_id": "RF06"
-        },
-        {
-            "analysis": "O requisito RF06 não está satisfeito. O uso repetido do pronome relativo \"que\" pode gerar confusão para alguns alunos, especialmente aqueles neurodivergentes que podem ter dificuldade em processar informações complexas e estruturas sintáticas intrincadas. Embora o referente de cada \"que\" seja identificável (Sócrates), a redundância pode dificultar a compreensão da frase como um todo, distraindo o aluno do conteúdo principal da questão.",
-            "satisfied": false,
-            "question_id": 1,
-            "requirement_id": "RF06"
-        },
-        {
-            "analysis": "O trecho apresenta o pronome relativo \"que\" na frase \"a finalidade da vida humana é alcançar algo que pode ser chamado de felicidade...\". Embora o contexto deixe claro que \"que\" se refere a \"a finalidade da vida humana\", a frase poderia ser mais clara para alunos neurodivergentes, que podem ter mais dificuldade em inferir o referente do pronome a partir do contexto. Uma reformulação poderia substituir o pronome por uma expressão explícita, como \"a finalidade da vida humana é alcançar algo que pode ser chamado de...”.",
-            "satisfied": false,
-            "question_id": 2,
-            "requirement_id": "RF06"
-        },
-        {
-            "analysis": "O requisito RF06 não está satisfeito. O pronome relativo \"que\" é repetido diversas vezes na questão, o que dificulta a identificação clara do referente em cada caso. Embora a questão esteja relacionada à filosofia de Santo Agostinho, a repetição excessiva do pronome dificulta a compreensão para alunos neurodivergentes. A estrutura sintática torna ambíguo a qual conceito cada ocorrência de \"que\" se refere, podendo gerar confusão na interpretação.",
-            "satisfied": false,
-            "question_id": 3,
-            "requirement_id": "RF06"
-        }
-    ]
-}
+[
+    {
+        "analysis": "A prova de Filosofia apresentada não possui uma seção de identificação do aluno. Não há campos para o nome, turma, data, número de matrícula ou qualquer outra informação que permita associar a prova a um aluno específico. A prova simplesmente inicia com as questões, sem qualquer espaço reservado para identificação.",
+        "satisfied": false,
+        "requirement_id": "RF01",
+        "question_id": 0
+    },
+    {
+        "analysis": "A prova não apresenta uma seção de instruções no cabeçalho. Não há informações sobre a duração da prova, quantidade de questões, pontuação, permissão para consulta, etc. As instruções seriam importantes para orientar os alunos sobre como realizar a prova corretamente.",
+        "satisfied": false,
+        "requirement_id": "RF02",
+        "question_id": 0
+    },
+    {
+        "analysis": "A prova não apresenta a pontuação das questões em lugar nenhum. Não há indicação de quanto valem as questões nem nas instruções da prova nem nas questões. As questões são apresentadas com um número e uma pergunta, mas sem qualquer menção de pontuação.",
+        "satisfied": false,
+        "requirement_id": "RF03",
+        "question_id": 0
+    },
+    {
+        "analysis": "O enunciado da questão não apresenta um comando explícito que direcione o aluno a realizar uma ação específica. A questão é formulada como uma afirmação seguida de alternativas, o que implica que o aluno deve escolher a alternativa correta, e não executar uma tarefa como explicar, justificar ou analisar. Portanto, o requisito não está satisfeito.",
+        "satisfied": false,
+        "requirement_id": "RF04",
+        "question_id": 1
+    },
+    {
+        "analysis": "O requisito RF04 não está satisfeito. Embora a questão apresente uma afirmação sobre a filosofia de Aristóteles, ela não contém um comando explícito direcionado ao aluno. Não há verbo no imperativo que solicite uma ação específica, como explicar, justificar ou analisar. A questão apenas apresenta uma informação, e a resposta esperada seria uma escolha entre as alternativas fornecidas, e não uma ação do aluno.",
+        "satisfied": false,
+        "requirement_id": "RF04",
+        "question_id": 2
+    },
+    {
+        "analysis": "O trecho da questão não contém pronomes possessivos. Portanto, o requisito RF05, que trata da clareza no uso de pronomes possessivos, é satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado da questão não apresenta pronomes possessivos. Portanto, o requisito de clareza no uso de pronomes possessivos (RF05) está satisfeito, pois não há elementos que o violem.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 2
+    },
+    {
+        "analysis": "O requisito RF06 não está satisfeito, pois o uso do pronome relativo \"que\" é ambíguo. O pronome \"que\" poderia se referir a Sócrates ou a Atenas. Embora a resposta correta (b) indique que o texto se refere a Sócrates, a estrutura sintática da frase não o deixa claro, criando uma ambiguidade que pode dificultar a compreensão, principalmente para alunos neurodivergentes.",
+        "satisfied": false,
+        "requirement_id": "RF06",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado apresenta o pronome relativo \"que\" na frase \"corresponde a algo que pode ser chamado de felicidade\". Embora o referente seja claro (algo que pode ser chamado de felicidade), o uso do pronome pode gerar uma leitura mais complexa para alguns alunos neurodivergentes, especialmente aqueles que tendem a processar informações de forma mais literal. No entanto, a ambiguidade sintática é mínima, dado que o referente é facilmente identificável dentro do contexto da frase.",
+        "satisfied": true,
+        "requirement_id": "RF06",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado apresenta múltiplas orações subordinadas que, embora não causem uma confusão extrema, aumentam a complexidade da leitura. A frase principal é \"Sócrates ficou famoso por:\", e ela é qualificada por uma sequência de orações subordinadas adjetivas (\"que viveu em Atenas\", \"que não deixou textos escritos\", \"que discutia com seus discípulos nas praças públicas\"). Embora a estrutura seja gramaticalmente correta, a quantidade de camadas de subordinação pode dificultar a compreensão para alunos neurodivergentes, especialmente aqueles com dificuldades de processamento da linguagem. O requisito não está totalmente satisfeito, mas a complexidade não é tão alta a ponto de caracterizar um problema grave.",
+        "satisfied": true,
+        "requirement_id": "RF07",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado apresenta uma estrutura com uma oração subordinada adjetiva explicativa, introduzida pela conjunção 'que': 'que pode ser chamado de felicidade ou êxito, ou realização ou eudaimonia'. Embora contenha apenas uma oração subordinada, a repetição de sinônimos e a estrutura ligeiramente complexa podem gerar um leve desconforto em alunos neurodivergentes, que podem precisar de um momento extra para processar a informação. No entanto, a complexidade não é extrema a ponto de comprometer a compreensão geral da questão, mantendo a clareza do que se espera do aluno.",
+        "satisfied": true,
+        "requirement_id": "RF07",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado não apresenta orações alternadas (\"ou... ou...\"). A descrição de Sócrates é contínua e não cria ambiguidades que possam prejudicar a compreensão. Portanto, o requisito RF08 é satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF08",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado apresenta uma alternância (\"ou... ou...\") que, embora não excessiva, pode gerar uma pequena sobrecarga cognitiva para alguns alunos, especialmente aqueles neurodivergentes que têm dificuldade com processamento de linguagem. A apresentação da eudaimonia imediatamente após a alternância pode ser confusa, pois a definição do conceito pode não estar clara para todos os alunos. Embora a questão em si não seja inaceitável, a estrutura poderia ser mais clara para garantir uma melhor compreensão",
+        "satisfied": true,
+        "requirement_id": "RF08",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado da questão atende ao requisito RF09. A questão é formulada de forma afirmativa, apresentando um contexto sobre Sócrates e suas práticas, seguida da apresentação das alternativas de resposta. Não há a utilização de dupla negativa que possa causar confusão ou dificultar a compreensão do que se espera do aluno.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RF09, pois não utiliza dupla negativa. A formulação da questão é afirmativa, solicitando ao aluno que identifique o conceito que corresponde à descrição de Aristóteles.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado utiliza o termo \"maiêutica\", que pode não ser familiar a todos os alunos. Embora seja um termo histórico, não é de conhecimento geral. A ausência de uma explicação em nota de rodapé ou glossário não atende ao requisito RF10, que exige a explicação de termos específicos, estrangeirismos ou vocabulário técnico quando utilizado em provas. Portanto, o requisito não está satisfeito.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado utiliza o termo 'eudaimonia', que é um conceito filosófico grego e, portanto, um vocabulário específico que pode ser desconhecido para muitos alunos. A ausência de uma explicação para esse termo, seja em nota de rodapé ou no próprio enunciado, impede que todos os alunos compreendam a pergunta em sua totalidade, descumprindo o critério de avaliação do requisito RF10.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado da questão atende ao requisito RNF01, pois utiliza a voz ativa de forma predominante. O verbo principal da questão é implícito, mas a forma como a questão é formulada incentiva o aluno a identificar a resposta correta de maneira ativa. Embora a introdução contenha uma descrição de Sócrates, o foco está em solicitar a identificação de sua fama, o que indica uma ação direta do aluno.",
+        "satisfied": true,
+        "requirement_id": "RNF01",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado da questão está redigido principalmente na voz ativa. A frase \"Segundo Aristóteles, a finalidade da vida humana é alcançar...\" e a pergunta \"Isso corresponde a...\" demonstram o uso da voz ativa.  Embora utilize a forma verbal \"corresponde\", que pode ser vista como passiva, o contexto geral da frase sugere uma relação de correspondência direta e não uma ação sendo realizada sobre o sujeito da frase.",
+        "satisfied": true,
+        "requirement_id": "RNF01",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado da questão apresenta uma estrutura de oração subordinada adjetiva que se repete para descrever Sócrates. A estrutura \"que + verbo\" é utilizada em ambas as partes da descrição: \"que viveu em Atenas\" e \"que não deixou textos escritos, mas que discutia com seus discípulos nas praças públicas\". Embora a segunda parte seja mais extensa, a manutenção da mesma estrutura sintática (oração subordinada adjetiva) demonstra o uso de paralelismo.  Portanto, o requisito está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RNF02",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado apresenta uma sequência de sinônimos para o mesmo conceito (\"felicidade ou êxito, ou realização ou eudaimonia\"). Embora a intenção seja apresentar alternativas para o mesmo significado, a construção sintática é irregular, quebrando o paralelismo esperado. Uma formulação mais paralela seria algo como \"Segundo Aristóteles, a finalidade da vida humana é alcançar a felicidade, o êxito, a realização ou a eudaimonia.\"",
+        "satisfied": false,
+        "requirement_id": "RNF02",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado da questão atende ao requisito RNF03. A questão é curta e direta, apresentando a informação necessária para a compreensão da pergunta e as alternativas de resposta de forma concisa. Não há informações desnecessárias ou linguagem excessivamente complexa.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF03. Embora utilize um vocabulário mais rebuscado ao introduzir o conceito de 'eudaimonia', a questão em si é direta e concisa ao apresentar a pergunta e as alternativas de resposta. Não há excesso de informações ou linguagem desnecessária que comprometa a clareza e objetividade do enunciado.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF04. O termo \"Sócrates\" é utilizado consistentemente para se referir à mesma pessoa ao longo de toda a questão. Embora sejam utilizados outros termos como \"ele\" e \"que\", todos se referem a Sócrates, mantendo a consistência na identificação do sujeito da questão.",
+        "satisfied": true,
+        "requirement_id": "RNF04",
+        "question_id": 1
+    },
+    {
+        "analysis": "O enunciado utiliza os termos \"felicidade\", \"êxito\", \"realização\" e \"eudaimonia\" para se referir ao mesmo conceito. Embora esses termos possam ser considerados sinônimos, a variação pode gerar confusão, especialmente para alunos neurodivergentes que podem se sentir inseguros sobre qual aspecto do conceito devem abordar na resposta. A inconsistência terminaológica viola o critério 2 do requisito.",
+        "satisfied": false,
+        "requirement_id": "RNF04",
+        "question_id": 2
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RF04. A primeira frase, 'Santo Agostinho defendia que a verdade... deve ser explicada', apresenta um comando explícito ao aluno: 'deve ser explicada'. O verbo no imperativo 'explicada' deixa claro que o aluno deve fornecer uma explicação sobre a verdade defendida por Santo Agostinho.",
+        "satisfied": true,
+        "requirement_id": "RF04",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado da questão não apresenta um comando explícito direcionado ao aluno. Ele apresenta uma contextualização sobre René Descartes e sua obra, seguida de um conjunto de alternativas. Não há um verbo no imperativo indicando o que o aluno deve fazer, como 'explique', 'analise', 'justifique', etc. Portanto, o requisito não está satisfeito.",
+        "satisfied": false,
+        "requirement_id": "RF04",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado apresenta um comando explícito, que é \"compare...e explique\". Os verbos \"compare\" e \"explique\" estão no início da frase, indicando claramente as ações que o aluno deve realizar para responder à questão. Portanto, o requisito está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF04",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado não apresenta um comando explícito direcionado ao aluno. A questão é formulada como uma afirmação seguida de alternativas, o que não instrui o aluno a realizar uma ação específica, como explicar, analisar ou discutir. Embora a questão solicite uma resposta, essa solicitação não se manifesta através de um verbo imperativo ou comando claro.",
+        "satisfied": false,
+        "requirement_id": "RF04",
+        "question_id": 6
+    },
+    {
+        "analysis": "O trecho em questão não utiliza pronomes possessivos (seu, sua, dele, dela). Portanto, o requisito RF05, que trata da clareza no uso de pronomes possessivos, é satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado não contém pronomes possessivos (seu, sua, dele, dela). Portanto, o requisito RF05 está satisfeito, pois não há ambiguidade sintática causada por mau uso de pronomes possessivos.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado da questão não contém pronomes possessivos (seu, sua, dele, dela). Portanto, o requisito de clareza no uso de pronomes possessivos (RF05) está satisfeito, pois não há elementos que possam gerar ambiguidade nesse aspecto.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado da questão não contém pronomes possessivos. Portanto, o requisito RF05, que trata da clareza no uso de pronomes possessivos, é satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado apresenta o pronome relativo 'que' repetidamente, e embora em muitos casos pronomes relativos sejam usados para evitar repetição, neste caso a repetição pode causar confusão para alunos neurodivergentes. A questão é: a qual termo exatamente cada 'que' se refere? Apesar de ser possível interpretar que cada 'que' se refere a termos distintos (a verdade, a razão, Deus), a estrutura repetitiva e a falta de clareza na relação entre os termos pode gerar ambiguidade e dificultar a compreensão da questão.",
+        "satisfied": false,
+        "requirement_id": "RF06",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado apresenta o pronome relativo \"que\" repetidamente, o que pode gerar confusão, embora a referência seja identificável pelo contexto.  A estrutura \"René Descartes, filósofo moderno, que desenvolveu o racionalismo e que escreveu as *Meditações Metafísicas*, ficou conhecido...\" pode levar a uma breve pausa na compreensão devido à repetição do pronome e à necessidade de processar múltiplas informações antes de se chegar ao ponto principal da questão (afirmação de Descartes). Embora o referente de cada \"que\" seja claro (Descartes), a repetição e a estrutura complexa podem ser desafiadoras para alunos neurodivergentes.",
+        "satisfied": true,
+        "requirement_id": "RF06",
+        "question_id": 4
+    },
+    {
+        "analysis": "O trecho analisado não contém pronomes relativos. Portanto, o requisito RF06 é satisfeito, pois a ausência do pronome relativo implica que não há possibilidade de ambiguidade sintática relacionada a este tipo de construção gramatical.",
+        "satisfied": true,
+        "requirement_id": "RF06",
+        "question_id": 5
+    },
+    {
+        "analysis": "O trecho analisado não apresenta pronomes relativos. Portanto, o requisito RF06, que trata da clareza no uso de pronomes relativos, está satisfeito, uma vez que não há pronomes relativos a serem avaliados.",
+        "satisfied": true,
+        "requirement_id": "RF06",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado apresenta uma estrutura complexa com múltiplas orações subordinadas adjetivas que se anexam à oração principal (\"a verdade... deve ser explicada\"). A sucessão de orações (\"que ilumina a razão, que está em Deus e que não deve ser confundida com a cidade terrena\") torna a frase densa e difícil de processar, especialmente para alunos neurodivergentes que podem ter dificuldades com a leitura de frases longas e com muitas dependências sintáticas. Essa estrutura aninhada dificulta a identificação da informação central da questão e pode gerar confusão.",
+        "satisfied": false,
+        "requirement_id": "RF07",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado apresenta uma oração subordinada adjetiva extensa que qualifica René Descartes (\"René Descartes, filósofo moderno, que desenvolveu o racionalismo e que escreveu as *Meditações Metafísicas*...\"). Apesar de não ser excessivamente complexa, a sequência de informações, intercaladas por vírgulas e conectadas por \"que\", pode gerar sobrecarga cognitiva para alguns alunos neurodivergentes, especialmente aqueles com dificuldades de processamento sequencial. Embora a estrutura não seja intrinsecamente falha, a extensão da oração pode prejudicar a clareza e a fluidez da leitura. O requisito não é violado de forma flagrante, mas um esforço para simplificar a estrutura seria benéfico.",
+        "satisfied": true,
+        "requirement_id": "RF07",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado da questão 5, apesar de conciso, possui uma estrutura que pode ser problemática para alunos neurodivergentes devido à combinação de uma instrução complexa (\"Compare as causas da ética kantiana e explique quais são as consequências\") e a necessidade de conhecimento prévio sobre a filosofia de Kant.  Embora não haja orações excessivamente longas ou aninhadas, a exigência de comparar e explicar conceitos abstratos, além da presença de termos específicos (\"ética kantiana\", “imperativo categórico” – embora este não apareça explicitamente na pergunta, é implícito no conteúdo), pode sobrecarregar a capacidade de processamento de alguns alunos.  Pode-se argumentar que a complexidade reside mais no conteúdo do que na estrutura sintática, mas essa complexidade se traduz em um desafio para a compreensão. O uso da palavra 'assinale' também pode confundir, pois se não entenderem o conteúdo, podem ter dificuldade em identificar a resposta correta.",
+        "satisfied": false,
+        "requirement_id": "RF07",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado da questão apresenta uma única oração subordinada adjetiva explicativa (\"que pode ser entendida como uma luta entre classes ou grupos, ou setores, ou formas de produção\") que complementa a informação sobre o que Karl Marx dizia. Essa estrutura, embora contenha diversas opções separadas por vírgulas, não compromete a clareza e a compreensão do enunciado, pois mantém uma relação direta entre a afirmação de Marx e a explicação subsequente. Portanto, o requisito está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF07",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado utiliza a estrutura “que... que... que... que” para descrever a verdade. Embora seja uma alternativa sintática possível, a repetição excessiva de 'que' pode gerar uma sobrecarga cognitiva e dificultar a compreensão imediata, especialmente para alunos neurodivergentes. Embora não seja uma alternância direta do tipo 'ou... ou...', a repetição constante pode causar confusão e a necessidade de processamento adicional para decifrar o significado. Portanto, o requisito não está totalmente satisfeito, apesar de não apresentar uma alternância clássica.",
+        "satisfied": false,
+        "requirement_id": "RF08",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RF08. A questão utiliza a estrutura \"ou seja\" para explicitar o significado da frase \"Penso, logo existo\", e não apresenta uma alternância complexa que possa confundir o aluno. A estrutura é utilizada para esclarecer um ponto, e não para oferecer alternativas de resposta que gerem ambiguidade.",
+        "satisfied": true,
+        "requirement_id": "RF08",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado da questão apresenta uma única alternância (\"Compare as causas da ética kantiana e explique quais são as consequências.\"), que não prejudica a compreensão. A estrutura da questão é clara e direta, estabelecendo uma demanda específica para o aluno.",
+        "satisfied": true,
+        "requirement_id": "RF08",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado apresenta um excesso de orações alternativas (“ou... ou... ou...\") que, embora se refiram ao mesmo conceito central (a luta entre classes), podem gerar confusão ao aluno. A repetição de termos como 'ou' e a variação de expressões (“classes, ou grupos, ou setores, ou formas de produção”) podem sobrecarregar a capacidade de processamento e dificultar a compreensão do que a questão realmente solicita. Embora a ideia central seja clara, a forma como é apresentada pode ser considerada excessivamente prolixa e, portanto, prejudica a clareza do enunciado.",
+        "satisfied": false,
+        "requirement_id": "RF08",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado da questão atende ao requisito RF09. Apesar de utilizar a palavra \"deve\", o comando é claro e afirmativo, indicando o que deve ser feito (explicar). Não há dupla negativa presente no enunciado, portanto, o requisito está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado da questão não utiliza dupla negativa. Apresenta uma contextualização sobre René Descartes e sua filosofia, seguida de uma pergunta sobre um aspecto específico de suas ideias. As alternativas de resposta também não contêm construções negativas que prejudiquem a clareza do enunciado.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RF09. Embora a questão envolva a análise e explicação de conceitos filosóficos, a formulação da pergunta é direta e afirmativa: \"Compare as causas da ética kantiana e explique quais são as consequências\". A utilização de termos como \"compare\" e \"explique\" direcionam o aluno para uma resposta construtiva, sem a presença de construções negativas que possam gerar confusão.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado da questão não utiliza dupla negativa. Apresenta uma afirmação de Karl Marx e propõe uma pergunta sobre o significado dessa afirmação, oferecendo alternativas.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado não utiliza estrangeirismos, vocabulos técnicos ou pouco usuais. Os termos 'verdade', 'razão', 'Deus', 'cidade terrena', 'tempo' são termos comuns e de entendimento geral, dispensando qualquer tipo de explicação adicional.",
+        "satisfied": true,
+        "requirement_id": "RF10",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado utiliza termos como \"racionalismo\", \"empirismo\", \"Metafísicas\" e o estrangeirismo em latim \"cogito ergo sum\". Nenhum desses termos é explicado no texto da questão ou em notas de rodapé. Considerando que estes são termos específicos da filosofia, a ausência de explicação torna o enunciado inacessível a alunos que não possuem conhecimento prévio, descumprindo o requisito RF10.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado utiliza o termo \"imperativo categórico\", que é um conceito central na filosofia de Kant e pode ser desconhecido para muitos estudantes. Não há uma explicação para esse termo no enunciado ou em notas de rodapé. Portanto, o requisito RF10 não está satisfeito, pois um vocábulo técnico específico não foi explicado.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado utiliza o termo \"setores\", que embora comum, pode não ser imediatamente compreendido por todos os alunos, especialmente aqueles neurodivergentes que podem ter dificuldades com abstrações. Embora não seja um termo técnico ou estrangeirismo, a ausência de uma explicação adicional para o termo no contexto da frase de Karl Marx pode gerar confusão e dificultar a compreensão da questão. O requisito RF10 busca garantir que o vocabulário, mesmo que comum, seja acessível a todos, e neste caso, uma breve explicação contextual poderia enriquecer a clareza da questão.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado utiliza a voz passiva na frase \"deve ser explicada\". Uma formulação na voz ativa seria \"explique a verdade\". Essa construção passiva torna o comando menos direto e pode gerar confusão.",
+        "satisfied": false,
+        "requirement_id": "RNF01",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado da questão, embora apresente a resposta correta (b), utiliza a voz passiva de forma proeminente na apresentação do contexto sobre René Descartes: \"foi desenvolvido\", \"foi rejeitada\", \"foi evitada\". Embora a questão em si não demande uma ação direta do aluno (apenas a escolha da alternativa correta), a maneira como a informação é apresentada e a falta de voz ativa na descrição do filósofo e sua obra podem dificultar a compreensão para alunos neurodivergentes que se beneficiam de instruções e informações mais diretas e concisas. A estrutura passiva torna o texto mais longo e indireto do que seria necessário para transmitir as mesmas informações de forma clara.",
+        "satisfied": false,
+        "requirement_id": "RNF01",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado utiliza a voz ativa de forma predominante. O verbo \"Compare\" está no imperativo, indicando uma ação direta que o aluno deve realizar. A frase é clara e concisa, e não há elementos que sugiram o uso da voz passiva para dificultar a compreensão.",
+        "satisfied": true,
+        "requirement_id": "RNF01",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado da questão está escrito em voz ativa. O verbo \"significa\" está no presente do indicativo, indicando uma ação que ocorre de forma contínua. A formulação direta contribui para a clareza e compreensão da pergunta.",
+        "satisfied": true,
+        "requirement_id": "RNF01",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF02. A estrutura do enunciado utiliza repetições da conjunção \"e\" para apresentar uma lista de afirmações sobre a verdade, todas seguindo a mesma estrutura sintática: \"[sujeito] + verbo + que + [complemento]\". A manutenção dessa estrutura paralela, \"que ilumina a razão, que está em Deus e que não deve ser confundida com a cidade terrena\", contribui para a clareza e o ritmo da frase.",
+        "satisfied": true,
+        "requirement_id": "RNF02",
+        "question_id": 3
+    },
+    {
+        "analysis": "O requisito RNF02 não está satisfeito. A introdução da frase sobre René Descartes utiliza duas construções com a estrutura “que + oração subordinada substantiva” (“que desenvolveu o racionalismo e que escreveu as *Meditações Metafísicas*”). A falta de paralelismo com a terceira ocorrência (“afirmou que”) quebra a simetria sintática, tornando a construção menos fluida e mais complexa.",
+        "satisfied": false,
+        "requirement_id": "RNF02",
+        "question_id": 4
+    },
+    {
+        "analysis": "O requisito RNF02 não está satisfeito. A instrução \"Compare as causas da ética kantiana e explique quais são as consequências\" apresenta uma quebra de paralelismo sintático. Há um verbo no imperativo (\"Compare\") seguido de uma frase completa (\"as causas da ética kantiana\"), e outro verbo no imperativo (\"explique\") seguido de uma frase completa (\"quais são as consequências”). A instrução ideal seria algo como: 'Compare as causas da ética kantiana e explique as consequências'.",
+        "satisfied": false,
+        "requirement_id": "RNF02",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado da questão apresenta uma estrutura que quebra o paralelismo sintático. A introdução utiliza uma série de termos sinônimos (\"classes\", \"grupos\", \"setores\", \"formas de produção\") e uma oração subordinada adjetiva (“que pode ser entendida como uma luta entre...”). Entretanto, a alternativa 'a)' apresenta um termo solto sem a mesma estrutura, quebrando o paralelismo esperado. A sequência deveria ter sido mais consistente no uso de orações subordinadas ou expressões equivalentes.",
+        "satisfied": false,
+        "requirement_id": "RNF02",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado da questão atende ao requisito RNF03. Ele é objetivo e direto, apresentando a questão e as alternativas de forma clara e concisa. Não há informações desnecessárias ou linguagem prolixa que possam dificultar a compreensão do aluno.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado da questão 4 atende ao requisito RNF03. Apesar de apresentar informações adicionais sobre René Descartes, essas informações são contextualizantes e não comprometem a clareza da solicitação. A questão é direta e objetiva, apresentando um gabarito claro para o aluno.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF03. Apesar de solicitar a comparação de causas e a explicação de consequências, a solicitação é direta e objetiva, indo ao ponto sem rodeios ou informações desnecessárias. A questão pode ser considerada concisa, conforme o critério 1 do requisito.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF03. A questão é curta, direta e objetiva, apresentando a afirmação de Karl Marx e solicitando a identificação do seu significado dentre as alternativas. Não há excesso de informação ou linguagem desnecessária, cumprindo o critério 1 de um enunciado conciso.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 6
+    },
+    {
+        "analysis": "O enunciado utiliza o termo \"verdade\" de forma consistente ao longo da questão. Embora as alternativas ofereçam diferentes perspectivas sobre a verdade, o enunciado em si não apresenta inconsistências terminológicas. Portanto, o requisito está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RNF04",
+        "question_id": 3
+    },
+    {
+        "analysis": "O enunciado apresenta uma inconsistência terminológica ao usar tanto “Penso, logo existo” quanto a forma latina *cogito ergo sum* para se referir ao mesmo conceito. Embora sejam equivalentes, a variação pode gerar confusão para alguns alunos, especialmente aqueles neurodivergentes que podem ter dificuldade em processar informações redundantes ou apresentar maior atenção aos detalhes. A utilização de termos distintos para expressar a mesma ideia desvia-se do critério de consistência terminológica.",
+        "satisfied": false,
+        "requirement_id": "RNF04",
+        "question_id": 4
+    },
+    {
+        "analysis": "O enunciado utiliza o termo \"ética kantiana\" para se referir à ética de Kant. Entretanto, nas alternativas, é utilizado o termo \"imperativo categórico\", que é um conceito central na ética kantiana, mas não é sinônimo de \"ética kantiana\". Embora o aluno provavelmente entenda a relação entre os dois termos, a inconsistência terminológica pode gerar confusão desnecessária, especialmente para alunos neurodivergentes que podem interpretar literalmente as instruções.",
+        "satisfied": false,
+        "requirement_id": "RNF04",
+        "question_id": 5
+    },
+    {
+        "analysis": "O enunciado do questionamento não atende ao requisito RNF04, pois utiliza termos diferentes para se referir ao mesmo conceito. As palavras 'classes', 'grupos' e 'formas de produção' são utilizadas como sinônimos para descrever a dinâmica da história humana conforme a teoria de Karl Marx. Embora possa-se argumentar que são termos relacionados, a variação no vocabulário pode gerar confusão e levar o aluno a interpretar a pergunta de maneiras diferentes, em contraste com a expectativa de consistência terminológica estabelecida pelo requisito.",
+        "satisfied": false,
+        "requirement_id": "RNF04",
+        "question_id": 6
+    },
+    {
+        "analysis": "O requisito RF04 é satisfeito. Embora a fraseologia seja incomum e possa gerar confusão, o enunciado contém um comando explícito: \"explique\". A construção da frase \"não deixe de não explicar\" é estranha, mas o verbo no imperativo \"explique\" está presente, indicando a ação que se espera do aluno. A presença desse comando, mesmo em uma estrutura sintática complexa, atende ao requisito de apresentar uma direção clara para a resposta esperada.",
+        "satisfied": true,
+        "requirement_id": "RF04",
+        "question_id": 7
+    },
+    {
+        "analysis": "O requisito RF04 é atendido porque o enunciado contém um comando direto, com verbo no imperativo (\"explique\"), deixando claro ao aluno qual ação deve executar. O comando está bem conectado ao restante do enunciado, indicando explicitamente o que deve ser explicado.",
+        "satisfied": true,
+        "requirement_id": "RF04",
+        "question_id": 8
+    },
+    {
+        "analysis": "O requisito RF04 é atendido porque o enunciado contém um comando direto, com verbo no imperativo (\"Analise\"), deixando claro ao aluno qual ação deve executar.",
+        "satisfied": true,
+        "requirement_id": "RF04",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RF04, pois apresenta um comando explícito no início da questão: \"Explique os motivos e causas...\". O verbo \"Explique\" está no imperativo, indicando diretamente a ação que o aluno deve realizar.",
+        "satisfied": true,
+        "requirement_id": "RF04",
+        "question_id": 10
+    },
+    {
+        "analysis": "O enunciado contém o pronome possessivo \"sua\" na frase \"mas não deixe de não explicar sua crítica ao rebanho\". O referente desse pronome é a crítica de Nietzsche ao rebanho. Apesar de ser possível inferir o referente, a construção da frase é indireta, com a dupla negativa (\"não deixe de não explicar\"). Essa estrutura pode gerar confusão, especialmente para alunos neurodivergentes, que podem ter dificuldade em processar a dupla negativa e interpretar corretamente a instrução.",
+        "satisfied": false,
+        "requirement_id": "RF05",
+        "question_id": 7
+    },
+    {
+        "analysis": "O trecho da questão apresenta o pronome possessivo 'sua', referindo-se a 'ética'. O referente é claro e não gera ambiguidade, uma vez que a questão solicita a explicação da diferença entre a ética aristotélica e a ética kantiana. Portanto, o requisito é satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 8
+    },
+    {
+        "analysis": "O trecho da questão não apresenta pronomes possessivos. Portanto, o requisito de clareza no uso de pronomes possessivos (RF05) está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado contém o pronome possessivo \"sua\" na forma contraída em \"sua\". O referente deste pronome é a moral tradicional, o que torna o referente claro e elimina qualquer ambiguidade. Portanto, o requisito RF05 está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF05",
+        "question_id": 10
+    },
+    {
+        "analysis": "O enunciado contém um pronome relativo implícito (\"que\", referente a Nietzsche) que pode gerar ambiguidade. A frase \"mas não deixe de não explicar sua crítica ao rebanho\" é confusa devido à dupla negativa e à falta de clareza sobre a qual aspecto da crítica de Nietzsche o candidato deve focar. A estrutura da frase dificulta a identificação precisa do que é esperado do aluno, gerando potencial para interpretações equivocadas. O uso da construção \"não deixe de não explicar\" é gramaticalmente estranho e pode desorientar estudantes, principalmente aqueles neurodivergentes que preferem instruções diretas e inequívocas.",
+        "satisfied": false,
+        "requirement_id": "RF06",
+        "question_id": 7
+    },
+    {
+        "analysis": "O requisito RF06 está satisfeito. A questão utiliza o termo \"diferença entre\", que direciona o estudante a comparar dois sistemas éticos distintos (aristotélica e kantiana). Não há pronomes relativos no enunciado, logo, não há possibilidade de ambiguidade sintática.",
+        "satisfied": true,
+        "requirement_id": "RF06",
+        "question_id": 8
+    },
+    {
+        "analysis": "O trecho apresentado não utiliza pronomes relativos (que, qual, os quais, as quais, de que, etc.). Portanto, o requisito de clareza no uso de pronomes relativos não se aplica, uma vez que não há pronomes relativos presentes no enunciado.",
+        "satisfied": true,
+        "requirement_id": "RF06",
+        "question_id": 9
+    },
+    {
+        "analysis": "O trecho da questão apresentado não utiliza pronomes relativos. Portanto, o requisito RF06 não se aplica, e o requisito é satisfeito por ausência de aplicabilidade.",
+        "satisfied": true,
+        "requirement_id": "RF06",
+        "question_id": 10
+    },
+    {
+        "analysis": "O enunciado apresenta uma estrutura sintática complexa com uma oração subordinada adverbial com negação dupla, o que dificulta a compreensão imediata da questão. A construção \"mas não deixe de não explicar sua crítica ao rebanho\" é desnecessariamente complexa e pode confundir o aluno, especialmente aqueles neurodivergentes que podem ter dificuldades com estruturas sintáticas intrincadas. A forma como a negação é utilizada em excesso dificulta a identificação clara do que se espera do aluno.",
+        "satisfied": false,
+        "requirement_id": "RF07",
+        "question_id": 7
+    },
+    {
+        "analysis": "O enunciado apresenta uma única oração principal (\"Explique a diferença entre a ética aristotélica e a ética kantiana\"). Não há orações subordinadas presentes. Portanto, o enunciado atende ao requisito de clareza na extensão das orações subordinadas, pois não há complexidade sintática que possa comprometer a compreensão.",
+        "satisfied": true,
+        "requirement_id": "RF07",
+        "question_id": 8
+    },
+    {
+        "analysis": "O enunciado apresenta uma única oração, a principal: \"Analise a importância do pensamento socrático para a filosofia ocidental\". Não há orações subordinadas presentes. Portanto, a extensão das orações não é um fator de confusão e o requisito está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF07",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado apresenta uma única oração, tornando-o conciso e direto. Não há orações subordinadas complexas que comprometam a compreensão. Portanto, o requisito de clareza na extensão das orações subordinadas é satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF07",
+        "question_id": 10
+    },
+    {
+        "analysis": "O enunciado da questão 7 contém uma oração alternada complexa e pouco usual: \"mas não deixe de não explicar sua crítica ao rebanho\". Essa construção, com a dupla negativa (\"não deixe de não explicar\"), dificulta a compreensão imediata da instrução que se espera do aluno. A complexidade da frase introduz uma camada de abstração desnecessária que pode gerar confusão, especialmente para alunos neurodivergentes. Apesar de a pergunta em si (qual a crítica de Nietzsche ao rebanho?) ser clara, a forma como é apresentada oprime a clareza da questão.",
+        "satisfied": false,
+        "requirement_id": "RF08",
+        "question_id": 7
+    },
+    {
+        "analysis": "O enunciado apresenta uma única alternância implícita, ao solicitar a explicação da diferença entre duas teorias. Essa alternância é inerente ao tema proposto e não causa prejuízo à compreensão do que se espera do aluno. Portanto, o requisito está satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RF08",
+        "question_id": 8
+    },
+    {
+        "analysis": "```json\n{\n    \"analysis\": \"O enunciado da questão 9 não contém orações alternadas (\"ou... ou...\") e, portanto, não apresenta o problema de excesso de opções que prejudicaria a compreensão. A questão é direta e clara em sua solicitação de análise, sem apresentar ambiguidades ou alternativas confusas. Portanto, o requisito de clareza em orações alternadas é satisfeito.\",\n    \"satisfied\": true\n}\n```",
+        "requirement_id": "RF08",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado da questão não contém orações alternadas (“ou... ou...”). Portanto, não há risco de sobrecarga cognitiva ou confusão para o aluno.",
+        "satisfied": true,
+        "requirement_id": "RF08",
+        "question_id": 10
+    },
+    {
+        "analysis": "não atende ao requisito RF09, pois contém uma dupla negativa: \"mas não deixe de não explicar\". Essa construção complexa e desnecessária pode gerar confusão e dificultar a compreensão da tarefa solicitada.",
+        "satisfied": false,
+        "requirement_id": "RF09",
+        "question_id": 7
+    },
+    {
+        "analysis": "O enunciado \"Explique a diferença entre a ética aristotélica e a ética kantiana\" é afirmativo e direto, não apresentando nenhuma forma de dupla negativa. Portanto, atende ao requisito RF09.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 8
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RF09. A questão é formulada de maneira direta e afirmativa (\"Analise a importância\"), sem o uso de negações. Não há dupla negativa presente.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado \"Explique os motivos e causas da crítica de Nietzsche à moral tradicional\" atende ao requisito RF09, pois é uma afirmação direta e não utiliza a dupla negativa. O verbo \"explique\" é um comando afirmativo e claro.",
+        "satisfied": true,
+        "requirement_id": "RF09",
+        "question_id": 10
+    },
+    {
+        "analysis": "Não atende ao requisito RF10. A questão utiliza termos como \"niilismo passivo\" e \"rebanho\" que podem não ser familiares a todos os alunos, especialmente considerando a profundidade filosófica associada a esses conceitos. A ausência de uma explicação ou glossário para esses termos torna a questão potencialmente inacessível para muitos, e especialmente para alunos neurodivergentes que podem necessitar de mais suporte para compreender o significado dos termos usados.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 7
+    },
+    {
+        "analysis": "O enunciado apresenta termos específicos da filosofia ('ética aristotélica' e 'ética kantiana') que podem não ser familiares a todos os alunos. A ausência de explicações ou glossário para esses termos técnicos leva à conclusão de que o requisito não foi satisfeito, pois a falta de definição contextual pode dificultar a compreensão da questão.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 8
+    },
+    {
+        "analysis": "O enunciado utiliza o termo \"pensamento socrático\", que pode ser um vocábulo específico ou termo técnico para alguns alunos, especialmente aqueles que não possuem um repertório prévio em filosofia.  Embora seja um conceito central na filosofia, a ausência de uma explicação ou nota de rodapé para esclarecer o que o 'pensamento socrático' compreende, pode gerar dificuldades de compreensão e, portanto, o requisito não está satisfeito.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado utiliza o termo \"moral tradicional\", que, embora compreensível em um contexto filosófico, pode não ser imediatamente claro para todos os alunos. A ausência de uma nota de rodapé ou glossário explicando o que se entende por \"moral tradicional\" impede a plena compreensão da pergunta, descumprindo o critério de que termos específicos devem ser explicados. Portanto, o requisito RF10 não está satisfeito.",
+        "satisfied": false,
+        "requirement_id": "RF10",
+        "question_id": 10
+    },
+    {
+        "analysis": "O enunciado utiliza a voz passiva de forma implícita na frase \"mas não deixe de não explicar sua crítica ao rebanho\". A construção da frase é indireta e confusa, o que pode dificultar a compreensão do que se espera do aluno. Uma formulação mais clara e direta, como \"explique sua crítica ao rebanho\" ou \"descreva a crítica de Nietzsche ao rebanho\", seria mais adequada ao requisito RNF01.",
+        "satisfied": false,
+        "requirement_id": "RNF01",
+        "question_id": 7
+    },
+    {
+        "analysis": "O enunciado \"Explique a diferença entre a ética aristotélica e a ética kantiana\" atende ao requisito RNF01, pois emprega a voz ativa de forma clara e direta. O verbo \"Explique\" está no imperativo, indicando uma ação direta que o aluno deve realizar. Não há construções passivas que comprometam a clareza do enunciado.",
+        "satisfied": true,
+        "requirement_id": "RNF01",
+        "question_id": 8
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF01. A questão utiliza a voz ativa de forma direta e clara. O verbo principal (\"Analise\") está no imperativo, indicando uma ação direta do aluno. A construção da frase é simples e concisa, facilitando a compreensão do comando.",
+        "satisfied": true,
+        "requirement_id": "RNF01",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado \"Explique os motivos e causas da crítica de Nietzsche à moral tradicional\" atende ao requisito RNF01. A frase está escrita na voz ativa, com o verbo \"Explique\" no imperativo, indicando uma ação direta do aluno. Não há elementos que sugiram o uso da voz passiva, tornando a instrução clara e concisa.",
+        "satisfied": true,
+        "requirement_id": "RNF01",
+        "question_id": 10
+    },
+    {
+        "analysis": "O enunciado da questão apresenta uma quebra de paralelismo sintático. A instrução para o estudante é complexa e utiliza uma construção negativa dupla (\"mas não deixe de não explicar\"), tornando a frase difícil de interpretar. A estrutura geral das alternativas não apresenta paralelismo com a instrução, o que dificulta a compreensão do que se espera do estudante. A falta de clareza e a estrutura complexa da instrução violam o requisito de paralelismo sintático, pois não há uma lógica sintática consistente na formulação da questão.",
+        "satisfied": false,
+        "requirement_id": "RNF02",
+        "question_id": 7
+    },
+    {
+        "analysis": "O enunciado apresenta uma única instrução clara e direta, que consiste em um verbo no imperativo (\"explique\") seguido de um objeto. Não há elementos que indiquem uma quebra de paralelismo sintático. A instrução é concisa e mantém uma estrutura gramatical uniforme.",
+        "satisfied": true,
+        "requirement_id": "RNF02",
+        "question_id": 8
+    },
+    {
+        "analysis": "O enunciado apresenta uma única instrução (\"Analise a importância do pensamento socrático para a filosofia ocidental\").  Como há apenas um item, não há quebra de paralelismo sintático a ser identificada, uma vez que não há necessidade de comparar estruturas. Portanto, o requisito é satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RNF02",
+        "question_id": 9
+    },
+    {
+        "analysis": "O requisito RNF02 é satisfeito. A questão apresenta uma única instrução, que consiste em um verbo no imperativo (\"explique\") seguido de um substantivo. Não há itens comparáveis, portanto, não há quebra de paralelismo sintático.",
+        "satisfied": true,
+        "requirement_id": "RNF02",
+        "question_id": 10
+    },
+    {
+        "analysis": "O enunciado não atende ao requisito RNF03, pois apresenta uma construção frasal complexa e desnecessariamente longa. A expressão \"mas não deixe de não explicar sua crítica ao rebanho\" é redundante e dificulta a compreensão da solicitação. A questão poderia ser expressa de forma mais direta e concisa, como: \"Explique a crítica de Nietzsche ao rebanho.\"",
+        "satisfied": false,
+        "requirement_id": "RNF03",
+        "question_id": 7
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF03. A questão é direta e objetiva, solicitando a explicação da diferença entre duas escolas de pensamento ético. Não há informações desnecessárias ou linguagem excessivamente complexa. A estrutura enxuta facilita a compreensão imediata do que é solicitado.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 8
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF03. A questão é direta, objetiva e concisa, sem rodeios ou informações desnecessárias. A solicitação é clara e fácil de entender.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF03. A questão é direta e concisa, solicitando uma explicação sobre um tema específico. Não há informações desnecessárias ou linguagem excessivamente complexa, facilitando a compreensão da tarefa solicitada.",
+        "satisfied": true,
+        "requirement_id": "RNF03",
+        "question_id": 10
+    },
+    {
+        "analysis": "O enunciado não atende ao requisito RNF04, pois utiliza a expressão \"mas não deixe de não explicar sua crítica ao rebanho\". Essa construção é redundante e confusa, utilizando duas negações (\"não deixe de não explicar\") para expressar uma ideia, o que foge à clareza esperada. Mesmo que a intenção seja instruir o candidato a abordar a crítica de Nietzsche ao conceito de rebanho, a forma como isso é expresso é inconsistente e potencialmente confusa, violando o critério de consistência terminológica.",
+        "satisfied": false,
+        "requirement_id": "RNF04",
+        "question_id": 7
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF04, pois utiliza os termos 'ética aristotélica' e 'ética kantiana' de forma consistente para se referir aos dois sistemas éticos distintos. Não há variação terminológica que possa gerar confusão ou ambiguidade.",
+        "satisfied": true,
+        "requirement_id": "RNF04",
+        "question_id": 8
+    },
+    {
+        "analysis": "O enunciado utiliza o termo \"pensamento socrático\" de forma consistente ao longo da questão. Não há variação terminológica ou uso de sinônimos que possam gerar confusão sobre o conceito a ser analisado. Portanto, o requisito de consistência terminológica é satisfeito.",
+        "satisfied": true,
+        "requirement_id": "RNF04",
+        "question_id": 9
+    },
+    {
+        "analysis": "O enunciado atende ao requisito RNF04. O texto utiliza consistentemente os termos \"motivos\" e \"causas\" como sinônimos para se referir aos fatores que levaram a crítica de Nietzsche à moral tradicional. Não há variação terminológica que possa gerar confusão ou ambiguidade.",
+        "satisfied": true,
+        "requirement_id": "RNF04",
+        "question_id": 10
+    }
+]
