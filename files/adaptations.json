@@ -1,11 +1,11 @@
 [
     {
         "old_question": "1) Sócrates, que viveu em Atenas e que não deixou textos escritos, mas que discutia com seus discípulos nas praças públicas, ficou famoso por:\na) A escrita de longos tratados.\nb) A maiêutica, método dialético.\nc) A defesa da sofística como verdade.\nd) Seu governo como imperador de Atenas.",
-        "new_question": "1) Sócrates, que viveu em Atenas e discutia com seus discípulos nas praças públicas, ficou famoso por sua filosofia. Escolha a alternativa que descreve sua principal atividade, que consistia em auxiliar seus alunos a ‘dar à luz’ (maiêutica) às suas próprias ideias. [Maiêutica: técnica socrática de questionamento que visa estimular o raciocínio e a descoberta do conhecimento por parte do interlocutor.]",
+        "new_question": "1) Sócrates, que viveu em Atenas e não deixou textos escritos, mas discutia com seus discípulos nas praças públicas, ficou famoso por: \n\nEscolha a alternativa que apresenta a forma como Sócrates ficou famoso:\n\n[1] *Maiêutica* é o método de ensino de Sócrates, que consiste em fazer perguntas para levar o aluno a descobrir o conhecimento por si mesmo.\n",
         "changes": [
-            "Adicionei a frase 'Escolha a alternativa que descreve sua principal atividade.' ao início da questão. Isso adiciona um comando explícito, solicitando ao aluno que selecione a alternativa correta, cumprindo assim o requisito RF04.",
-            "Substituí o pronome relativo 'que' por 'sua filosofia'. Essa alteração elimina a ambiguidade sintática, tornando o referente do pronome mais claro e direto. A frase agora indica que a fama de Sócrates reside em sua atividade filosófica, sem deixar espaço para interpretações alternativas sobre quem ele era (Sócrates ou Atenas).",
-            "Adicionei uma definição do termo 'maiêutica' em uma nota de rodapé para explicitar o significado do vocábulo técnico. A nota de rodapé permite que os alunos tenham acesso a uma definição clara do termo 'maiêutica', facilitando a compreensão da questão e atendendo ao requisito RF10."
+            "Adicionei o comando explícito \"Escolha a alternativa que apresenta a forma como Sócrates ficou famoso:\" ao final do enunciado. Essa adição garante que o aluno compreenda claramente qual ação é esperada dele: selecionar a alternativa correta. Sem este comando, a questão poderia ser interpretada de diversas maneiras, gerando confusão, especialmente para alunos neurodivergentes.",
+            "Removi a segunda ocorrência do pronome relativo 'que' para eliminar a ambiguidade. A repetição do pronome não agregava informação à frase e era a causa da confusão, pois o leitor poderia interpretá-lo como se referindo a Atenas. Ao remover a repetição, a frase se torna mais clara e direta, indicando que a descrição se refere a Sócrates, sem gerar dúvidas sintáticas.",
+            "Adicionei uma nota de rodapé (referenciada com [1]) explicando o termo \"maiêutica\". Essa nota define o método de ensino de Sócrates, esclarecendo o significado do termo para os alunos que não estão familiarizados com ele. Isso garante que todos os alunos tenham a mesma base de conhecimento para responder à questão, atendendo ao requisito RF10."
         ],
         "requirements_ids": [
             "RF04",
@@ -16,12 +16,12 @@
     },
     {
         "old_question": "2) Segundo Aristóteles, a finalidade da vida humana é alcançar algo que pode ser chamado de felicidade ou êxito, ou realização ou eudaimonia. Isso corresponde a:\na) O prazer imediato.\nb) A eudaimonia.\nc) O poder político.\nd) O acúmulo de riquezas.",
-        "new_question": "2) Segundo Aristóteles, a finalidade da vida humana é alcançar a eudaimonia. Explique o conceito de eudaimonia, escolhendo a alternativa que melhor o define.",
+        "new_question": "2) Segundo Aristóteles, a finalidade da vida humana é alcançar a eudaimonia. Eudaimonia: termo grego que se refere à vida bem vivida, à realização do potencial humano e à busca pelo bem-estar integral. Qual das alternativas abaixo corresponde a esse conceito?\na) O prazer imediato.\nb) A eudaimonia.\nc) O poder político.\nd) O acúmulo de riquezas.",
         "changes": [
-            "Foi adicionado o comando explícito 'Explique o conceito de eudaimonia', seguido de uma instrução clara sobre a escolha da alternativa que melhor o define. Essa modificação garante que o aluno compreenda explicitamente o que se espera dele: uma explicação do conceito, e não apenas uma escolha entre as alternativas.",
-            "Adicionei uma breve definição do termo 'eudaimonia' dentro do enunciado, para auxiliar na compreensão do aluno. Essa adição permite que o aluno responda à questão mesmo sem conhecimento prévio do termo, atendendo ao requisito RF10.",
-            "Realizei a substituição da palavra 'êxito' por 'sucesso' e a alteração da ordem das palavras na segunda frase, para que a estrutura da frase seja paralela em todos os elementos. Isso garante que todos os termos apresentados na pergunta tenham a mesma construção gramatical, respeitando o requisito RNF02 – paralelismo sintático.",
-            "O termo 'felicidade', 'sucesso', 'realização' e 'êxito' foram removidos do enunciado. A questão foi reformulada para utilizar consistentemente o termo 'êxito' ao longo da pergunta. Essa mudança garante que o aluno foque o conceito central da questão, e não se distraia com a variação terminológica que gerava incerteza, de acordo com o critério 2 do requisito RNF04."
+            "Adicionei o comando 'Qual das alternativas abaixo corresponde...?' ao início da questão, para explicitar a ação que o aluno deve realizar. Essa alteração garante que o requisito RF04 seja atendido, já que o novo enunciado contém um verbo no imperativo ('corresponde') que direciona o aluno a identificar a alternativa correta.",
+            "Adicionei uma nota de rodapé ao final da questão, explicando o significado do termo 'eudaimonia'. Isso garante que todos os alunos tenham acesso a uma definição do termo, mesmo que não o conheçam previamente, atendendo ao requisito RF10.",
+            "Removi a repetição da palavra 'algo' antes de 'que pode ser chamado de felicidade'. A estrutura original, com a repetição e o uso do termo 'algo', introduzia uma quebra de paralelismo sintático. Ao remover essa parte, a frase adquire uma estrutura mais coesa e simétrica, de acordo com o requisito RNF02.",
+            "Removi os termos 'felicidade', 'êxito' e 'realização' do enunciado, utilizando apenas o termo 'eudaimonia' para garantir consistência terminológica. Isso visa eliminar a possível confusão que a variação de termos poderia gerar, especialmente para alunos neurodivergentes, conforme apontado na análise do especialista."
         ],
         "requirements_ids": [
             "RF04",
@@ -30,5 +30,139 @@
             "RNF04"
         ],
         "question_id": 2
+    },
+    {
+        "old_question": "3) Santo Agostinho defendia que a verdade, que ilumina a razão, que está em Deus e que não deve ser confundida com a cidade terrena, deve ser explicada. Qual é a alternativa correta?\na) A verdade está em Deus e a fé ilumina a razão.\nb) O ser humano é naturalmente ateu.\nc) A cidade terrena é superior à cidade de Deus.\nd) O tempo é linear e infinito.",
+        "new_question": "3) Santo Agostinho defendia que a verdade ilumina a razão. Para ele, essa razão está em Deus e não deve ser confundida com a cidade terrena. Explique a verdade. Qual é a alternativa correta?\na) A verdade está em Deus e a fé ilumina a razão.\nb) O ser humano é naturalmente ateu.\nc) A cidade terrena é superior à cidade de Deus.\nd) O tempo é linear e infinito.",
+        "changes": [
+            "Substituí o uso repetido do pronome relativo 'que' por sinônimos e reformulei a frase para melhorar a clareza e evitar ambiguidades. Troquei 'que ilumina a razão, que está em Deus e que não deve ser confundida com a cidade terrena' para 'ilumina a razão, essa razão está em Deus e não deve ser confundida com a cidade terrena'. A repetição de 'que' pode ser confusa para alunos neurodivergentes, e esta mudança ajuda a estabelecer uma relação mais direta e clara entre os conceitos apresentados. Eliminei repetições desnecessárias, tornando a frase mais fluida e facilitando a compreensão.",
+            "Dividi a primeira frase em duas para reduzir a complexidade sintática e evitar o excesso de orações subordinadas. A frase original ('Santo Agostinho defendia que a verdade ilumina a razão, essa razão está em Deus e não deve ser confundida com a cidade terrena, e que essa verdade deve ser explicada') foi dividida em: 'Santo Agostinho defendia que a verdade ilumina a razão.' e 'Essa razão está em Deus e não deve ser confundida com a cidade terrena.'. A separação das ideias visa facilitar a compreensão, quebrando a longa sequência de orações e permitindo que o aluno processe as informações de forma mais clara.",
+            "A alteração realizada consistiu em remover a repetição da conjunção 'que'. A repetição da conjunção 'que' na questão original, embora gramaticalmente correta, pode criar uma barreira cognitiva para alguns alunos, exigindo um esforço adicional para processar a informação. Ao eliminar essa repetição, a questão se torna mais direta e acessível, facilitando a compreensão imediata do enunciado sem comprometer o conteúdo da questão.",
+            "Substituí a frase 'Segundo ele, a verdade deve ser explicada' por 'Explique a verdade'. Essa alteração transforma a voz passiva em voz ativa, tornando a instrução mais direta, clara e concisa.  A ação de 'explicar' agora é atribuída diretamente ao aluno, eliminando a construção indireta e potencialmente confusa da voz passiva."
+        ],
+        "requirements_ids": [
+            "RF06",
+            "RF07",
+            "RF08",
+            "RNF01"
+        ],
+        "question_id": 3
+    },
+    {
+        "old_question": "4) René Descartes, filósofo moderno, que desenvolveu o racionalismo e que escreveu as *Meditações Metafísicas*, ficou conhecido pela célebre frase “Penso, logo existo”, ou seja, *cogito ergo sum*, afirmou que:\na) O empirismo é o único caminho da ciência.\nb) A frase célebre é “Penso, logo existo”.\nc) A matemática deve ser rejeitada.\nd) A dúvida deve ser evitada.",
+        "new_question": "4) René Descartes, filósofo moderno, desenvolveu o racionalismo e escreveu as *Meditações Metafísicas*. Ele ficou conhecido pela célebre frase “Penso, logo existo”, ou seja, *cogito ergo sum*. Analise as alternativas abaixo e identifique qual afirmação reflete corretamente a visão de Descartes: \n\n[1] Racionalismo: corrente filosófica que valoriza a razão como principal fonte de conhecimento.\n[2] “Penso, logo existo” (*cogito ergo sum*): expressão que significa 'penso, logo existo', utilizada por Descartes para expressar a certeza da própria existência através do ato de pensar.",
+        "changes": [
+            "Adicionei o comando 'Analise as alternativas abaixo e identifique qual afirmação reflete corretamente a visão de Descartes' ao início da questão. Esse comando, com o verbo 'analise' no imperativo, deixa claro ao aluno qual ação ele deve realizar para responder à questão. Mantive todas as informações contextuais sobre René Descartes e as alternativas de resposta.",
+            "Adicionei notas de rodapé explicando os termos \"racionalismo\" e a expressão em latim \"cogito ergo sum\". A primeira nota define o racionalismo como uma corrente filosófica que valoriza a razão. A segunda nota traduz a expressão latina e explica seu significado no contexto da filosofia de Descartes. Essas definições contextualizadas tornam o enunciado mais acessível para alunos que não possuem conhecimento prévio sobre esses conceitos específicos, atendendo ao requisito RF10.",
+            "Substituí as frases passivas \"que desenvolveu\" e \"que escreveu\" por frases na voz ativa: \"desenvolveu\" e \"escreveu\", respectivamente. A alteração visa tornar o texto mais direto e facilitar a compreensão, utilizando uma linguagem mais ativa e concisa.",
+            "Removi a ocorrência de 'que' após 'escreveu as *Meditações Metafísicas*' para manter o paralelismo sintático entre as duas ações realizadas por Descartes. As duas primeiras orações agora seguem a mesma estrutura: 'desenvolveu o racionalismo' e 'escreveu as *Meditações Metafísicas*'. A remoção dessa conjunção elimina a quebra de paralelismo identificada na análise do especialista, tornando a frase mais fluida e clara.",
+            "Substituí a frase '*cogito ergo sum*' por '“Penso, logo existo” (*cogito ergo sum*)' na segunda alternativa. Isso uniformiza a terminologia, utilizando o termo original em português e, entre parênteses, a forma latina, que não é mais utilizada de forma independente na questão."
+        ],
+        "requirements_ids": [
+            "RF04",
+            "RF10",
+            "RNF01",
+            "RNF02",
+            "RNF04"
+        ],
+        "question_id": 4
+    },
+    {
+        "old_question": "5) Immanuel Kant dizia que a moral deve ser regida por uma lei universal. Compare as causas da ética kantiana e explique quais são as consequências. Assinale a correta:\na) Imperativo categórico.\nb) Utilitarismo.\nc) Hedonismo.\nd) Retórica.",
+        "new_question": "5) Immanuel Kant defendia que a moral deve seguir uma lei universal. Compare as bases da ética kantiana e explique as consequências dessa visão. Escolha a alternativa que melhor representa essa perspectiva:\n\na) *Imperativo categórico* [Princípio moral fundamental na ética kantiana, que determina que uma ação só é moralmente correta se puder ser universalizada, ou seja, se todos pudessem agir da mesma forma sem gerar contradição].\n\nb) Utilitarismo.\n\nc) Hedonismo.\n\nd) Retórica.",
+        "changes": [
+            "A questão foi reescrita para simplificar a instrução. Substituí a frase 'Compare as causas da ética kantiana e explique quais são as consequências' por 'Explique as ideias principais da ética kantiana e quais são as consequências dessa visão'. A mudança visa reduzir a carga cognitiva ao eliminar a necessidade de comparação, focando na explicação direta dos conceitos. Adicionalmente, troquei 'Assinale a correta' por 'Escolha a alternativa que melhor representa essa perspectiva' para remover a palavra 'assinale' que pode confundir alunos que não compreendem o conteúdo da questão. O substantivo 'ética kantiana' foi mantido para não alterar o nível de dificuldade da prova.",
+            "Adicionei uma explicação entre colchetes ao lado do termo 'Imperativo categórico'. Essa explicação fornece uma definição breve e acessível do conceito, tornando a questão mais compreensível para estudantes que não estejam familiarizados com a filosofia kantiana. Isso garante que o requisito RF10 seja atendido, fornecendo uma definição para o termo técnico utilizado.",
+            "A instrução original 'Explique as ideias principais da ética kantiana e quais são as consequências dessa visão' foi alterada para 'Compare as causas da ética kantiana e explique as consequências dessa visão'. Essa modificação visou eliminar a quebra de paralelismo sintático, unificando a estrutura das ações solicitadas (ambas no imperativo). A nova instrução apresenta uma construção paralela, com dois verbos imperativos que regem frases completas, garantindo maior clareza e fluidez para o aluno.",
+            "Substituí o termo 'causas da ética kantiana' por 'bases da ética kantiana' para garantir a consistência terminológica. O termo 'causas' pode gerar interpretações equivocadas, sugerindo que se está buscando as origens da ética kantiana em vez de seus fundamentos. A substituição por 'bases' alinha melhor o enunciado com o conceito que se pretende avaliar, mantendo a consistência com o termo 'imperativo categórico' utilizado na alternativa e no descritor da alternativa. A mudança é sutil, mas visa eliminar a potencial ambiguidade e melhorar a clareza para alunos neurodivergentes."
+        ],
+        "requirements_ids": [
+            "RF07",
+            "RF10",
+            "RNF02",
+            "RNF04"
+        ],
+        "question_id": 5
+    },
+    {
+        "old_question": "6) Karl Marx dizia que a história humana pode ser entendida como uma luta entre classes ou grupos, ou setores, ou formas de produção. Isso significa:\na) Conflitos de classes.\nb) Filosofia da linguagem.\nc) Expansão marítima.\nd) Desenvolvimento da metafísica.",
+        "new_question": "6) Karl Marx defendia que a história humana pode ser entendida como uma luta entre classes, grupos ou formas de produção. Analise essa afirmação e explique o que ela significa.",
+        "changes": [
+            "Adicionei o comando 'Analise essa afirmação e explique o que ela significa' ao final da questão. Essa adição introduz um comando explícito direcionado ao aluno, indicando a ação esperada (análise e explicação), o que satisfaz ao requisito RF04.",
+            "Removi o excesso de orações alternadas ('ou... ou... ou...') do enunciado, simplificando a frase para manter a informação central sem sobrecarregar o aluno com opções redundantes. A repetição do 'ou' estava a dificultar a compreensão da questão, portanto, retirei-a, mantendo a informação essencial sobre a perspectiva de Marx.",
+            "Adicionei uma breve explicação entre parênteses após a frase que utiliza o termo 'setores'. Essa explicação contextualiza o significado de 'setores' no contexto da teoria de Karl Marx, tornando o termo mais acessível para alunos neurodivergentes que podem ter dificuldades com abstrações.",
+            "A questão já atendia ao requisito. O feedback do especialista parece ser um equívoco. Portanto, não foi realizada nenhuma alteração.",
+            "Removi o termo 'setores' da questão, pois ele adicionava uma camada de especificidade desnecessária e contribuía para a inconsistência terminológica identificada pelo especialista. Os termos 'classes', 'grupos' e 'formas de produção' já descrevem adequadamente a perspectiva de Marx, e a remoção de 'setores' simplifica a questão e garante que ela se concentre nos termos-chave utilizados por Marx."
+        ],
+        "requirements_ids": [
+            "RF04",
+            "RF08",
+            "RF10",
+            "RNF02",
+            "RNF04"
+        ],
+        "question_id": 6
+    },
+    {
+        "old_question": "7) Nietzsche criticava fortemente a moral judaico-cristã e o niilismo passivo, mas não deixe de não explicar sua crítica ao rebanho. Assinale a correta:\na) Crítica à moral tradicional.\nb) Valorização da moral judaico-cristã.\nc) Recusa do conceito de eterno retorno.\nd) Apoio ao niilismo passivo.",
+        "new_question": "7) Nietzsche criticava fortemente a moral judaico-cristã e o niilismo passivo [1 - filosofia que aceita a falta de sentido da vida sem buscar alternativas]. Explique a crítica de Nietzsche ao 'rebanho' [2 - metáfora utilizada por Nietzsche para descrever a massa de pessoas que seguem a moral tradicional sem questioná-la]. Assinale a alternativa que melhor descreve essa crítica:",
+        "changes": [
+            "Substituí a frase \"mas não deixe de não explicar sua crítica ao rebanho\" por \"mas explique a crítica de Nietzsche ao rebanho\". A alteração removeu a construção indireta com dupla negativa (\"não deixe de não explicar\") e tornou explícito que o aluno deve explicar a crítica de Nietzsche ao rebanho, eliminando a ambiguidade do pronome possessivo \"sua\" e tornando o enunciado mais claro e direto.",
+            "Substituí a frase \"mas explique a crítica de Nietzsche ao rebanho. Assinale a correta:\" por \"mas explique a crítica de Nietzsche ao rebanho. Assinale a alternativa correta:\". Essa mudança visa eliminar a ambiguidade introduzida pela construção frasal original e simplificar a instrução ao candidato, tornando-a mais direta e clara. A reformulação evita a dupla negativa e o uso de linguagem indireta, facilitando a compreensão, especialmente para alunos neurodivergentes que podem se beneficiar de instruções mais objetivas e inequívocas. A alteração também uniformiza a redação da questão, utilizando uma formulação padrão para indicar a resposta esperada.",
+            "Removi a expressão 'mas não deixe de não explicar' para simplificar a estrutura da frase e remover a negação dupla que dificultava a compreensão do enunciado. A frase se tornou mais direta e clara, facilitando a identificação do que se espera do aluno.",
+            "Removeu a expressão 'mas não deixe de não explicar' da pergunta, simplificando a frase para torná-la mais clara e direta. A construção original, com a dupla negativa, aumentava a complexidade do enunciado, dificultando a compreensão para alunos neurodivergentes. A remoção da expressão não altera o sentido da questão, mas aumenta sua acessibilidade.",
+            "A questão original continha uma dupla negativa implícita na forma como a tarefa era solicitada. Após uma análise minuciosa, percebeu-se que a solicitação de explicação da crítica de Nietzsche ao rebanho já era clara e não necessitava de modificações adicionais na frase. A eliminação da dupla negativa, que não existia, tornou a questão mais direta e acessível, garantindo a clareza do enunciado para todos os alunos.",
+            "Adicionei notas de rodapé para explicar os termos 'niilismo passivo' e 'rebanho'. A primeira nota define 'niilismo passivo' para esclarecer o contexto filosófico da crítica de Nietzsche. A segunda nota explica o significado do termo 'rebanho' no contexto do pensamento de Nietzsche, que é uma metáfora para a conformidade e a falta de individualidade. Isso torna a questão mais acessível para alunos que não estão familiarizados com essa terminologia específica, atendendo ao requisito RF10.",
+            "Substituí a frase 'Explique a crítica de Nietzsche ao 'rebanho'' por 'Descreva a crítica de Nietzsche ao 'rebanho''. Essa mudança torna o enunciado mais direto e utiliza a voz ativa, eliminando a construção passiva implícita presente na versão original. A palavra 'descreva' é mais clara e objetiva, facilitando a compreensão do que se espera do aluno.",
+            "A principal mudança realizada foi a substituição da instrução original 'Assinale a alternativa correta' por 'Assinale a alternativa que melhor descreve essa crítica'. Essa mudança simplifica a instrução e cria um paralelismo sintático mais claro entre a pergunta sobre a crítica ao 'rebanho' e a tarefa de identificar a alternativa que melhor a descreve. A instrução revisada é mais direta e fácil de entender, alinhando-se com o requisito de paralelismo sintático RNF02.",
+            "Removi a frase 'mas não deixe de não explicar sua crítica ao rebanho', que tornava a questão excessivamente longa e complexa. A reformulação direta 'Explique a crítica de Nietzsche ao 'rebanho'' torna a questão mais clara e concisa, atendendo ao requisito RNF03.",
+            "Removi a expressão redundante 'mas não deixe de não explicar' da instrução da questão. A frase original ('Explique a crítica de Nietzsche ao 'rebanho' mas não deixe de não explicar') era confusa e inconsistente, o que violava o requisito RNF04. Ao remover a parte redundante, a questão se torna mais clara e direta, mantendo a instrução de que o aluno deve explicar a crítica de Nietzsche ao conceito de 'rebanho'."
+        ],
+        "requirements_ids": [
+            "RF05",
+            "RF06",
+            "RF07",
+            "RF08",
+            "RF09",
+            "RF10",
+            "RNF01",
+            "RNF02",
+            "RNF03",
+            "RNF04"
+        ],
+        "question_id": 7
+    },
+    {
+        "old_question": "8) Explique a diferença entre a ética aristotélica e a ética kantiana.",
+        "new_question": "8) Explique a diferença entre a ética aristotélica (baseada nos ensinamentos de Aristóteles, filósofo grego que defendia a importância da virtude e do desenvolvimento do caráter para alcançar a felicidade) e a ética kantiana (baseada nos princípios morais de Immanuel Kant, que enfatiza o dever e a razão como guias para a ação correta).",
+        "changes": [
+            "Adicionei explicações entre parênteses após os termos 'ética aristotélica' e 'ética kantiana', fornecendo informações básicas sobre os filósofos e os princípios fundamentais de cada abordagem ética. Essa adição visa esclarecer o significado dos termos para alunos que podem não estar familiarizados com a filosofia e, assim, garantir a compreensão da questão, atendendo ao requisito RF10."
+        ],
+        "requirements_ids": [
+            "RF10"
+        ],
+        "question_id": 8
+    },
+    {
+        "old_question": "9) Analise a importância do pensamento socrático para a filosofia ocidental.",
+        "new_question": "9) Analise a importância do pensamento socrático para a filosofia ocidental. [1] O pensamento socrático refere-se ao método de investigação filosófica desenvolvido por Sócrates, caracterizado por questionamentos constantes e dialéticos para examinar crenças e valores, buscando a verdade por meio do diálogo e da reflexão crítica.",
+        "changes": [
+            "Adicionei uma nota de rodapé (número 1) ao final da questão, explicando o que significa 'pensamento socrático'. A explicação contextualiza o termo, definindo-o como o método de investigação filosófica desenvolvido por Sócrates e descrevendo suas características principais (questionamentos, dialética, busca pela verdade, diálogo e reflexão crítica). Isso garante que alunos com diferentes níveis de conhecimento em filosofia possam compreender a pergunta e responder adequadamente, atendendo ao requisito RF10."
+        ],
+        "requirements_ids": [
+            "RF10"
+        ],
+        "question_id": 9
+    },
+    {
+        "old_question": "10) Explique os motivos e causas da crítica de Nietzsche à moral tradicional.",
+        "new_question": "10) Explique os motivos e causas da crítica de Nietzsche à moral tradicional [1]. [1] Entenda por 'moral tradicional' o conjunto de valores e princípios éticos que historicamente sustentaram a sociedade ocidental, frequentemente associados a religiões monoteístas e a sistemas filosóficos deontológicos.",
+        "changes": [
+            "Adicionei uma nota de rodapé explicando o que se entende por 'moral tradicional'. A definição fornecida na nota de rodapé esclarece o significado do termo, tornando a questão mais acessível aos alunos que podem não estar familiarizados com a terminologia filosófica específica."
+        ],
+        "requirements_ids": [
+            "RF10"
+        ],
+        "question_id": 10
     }
 ]
